@@ -201,7 +201,7 @@ function loadSearch(){
 				{
 					console.log(i);
 					console.log(tem2[i]);
-					s=s+'<a href="product.html?'+ tem2[i].idType +'"><div align="center" style="line-height:30px;float:left; width: 278px; height: 385px; margin: 10px; background: url(https://i.imgur.com/qenQ54S.png); background-repeat: no-repeat; background-position: center;">'+'<a href="'+tem2[i].location+'"><img src="'+tem2[i].img +'" width="250px" height="250px" style="margin-top: 15px; margin-bottom: 15px; margin-left: 10px; margin-right: 10px;" />'+ tem2[i].name +'<br/>'+tem2[i].price+ '<br/></a><button class="btn" onclick="addtocart('+'tem['+i+'].id'+')">Add to bag</button></div></a>';
+					s=s+'<a href="product.html?'+ tem2[i].idType +'"><div align="center" style="line-height:30px;float:left; width: 278px; height: 385px; margin: 10px; background: url(https://i.imgur.com/qenQ54S.png); background-repeat: no-repeat; background-position: center;">'+'<a href="'+tem2[i].location+'"><img src="'+tem2[i].img +'" width="250px" height="250px" style="margin-top: 15px; margin-bottom: 15px; margin-left: 10px; margin-right: 10px;" />'+ tem2[i].name +'<br/>'+tem2[i].price+ '<br/></a><button class="btn" onclick="addtocart('+'tem2['+i+'].id'+')">Add to bag</button></div></a>';
 					soluongsp++;
 					if(soluongsp==6)
 						break;
